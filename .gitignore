@@ -1,0 +1,9 @@
+.vs
+
+[Oo]bj/
+[Bb]in/
+[Dd]rop/
+[Ww]orking/
+src/TestBed
+
+*.user
