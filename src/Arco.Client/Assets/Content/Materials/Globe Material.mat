@@ -77,7 +77,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WorldGrid:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c8fae399ae59e0b4d87dc3452483eacf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WorldOutline:
@@ -174,6 +174,7 @@ Material:
     - _UVSec: 0
     - _UseEmissiveIntensity: 1
     - _UseShadowThreshold: 0
+    - _WorldGridStrength: 0.1
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestModeDistortion: 4
