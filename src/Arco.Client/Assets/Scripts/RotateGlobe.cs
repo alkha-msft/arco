@@ -20,7 +20,7 @@ namespace Assets
         // Update is called once per frame
         void Update()
         {
-            transform.Rotate(Vector3.forward, angularRotationSpeed * Time.deltaTime);
+            transform.Rotate(Vector3.up, angularRotationSpeed * Time.deltaTime);
         }
     }
 }
