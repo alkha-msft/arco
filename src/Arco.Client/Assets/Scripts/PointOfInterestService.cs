@@ -40,8 +40,8 @@ namespace Assets.Scripts
             {
                 var position = ConvertPolarToCartesian(Mathf.Deg2Rad * (poi.Latitude), Mathf.Deg2Rad * poi.Longitude, 1);
                 var pinInstance = Instantiate(_pinPrefab);
-                pinInstance.transform.position = position;
                 pinInstance.transform.parent = _parentObject.transform;
+                pinInstance.transform.localPosition = position;
             }
         }
 
